@@ -4,7 +4,7 @@ install.packages("dplyr")
 install.packages("tidyverse")
 library(tidyverse)
 library(ggplot2)
-by_tag_year <- read_csv("C:/Users/Anjan/Downloads/iris/New folder/by_tag_year.csv")
+by_tag_year <- read_csv("<File location>/by_tag_year.csv")
 head(by_tag_year)
 by_tag_year_fraction <- by_tag_year %>% 
   select(year, tag, number,year_total) %>%
